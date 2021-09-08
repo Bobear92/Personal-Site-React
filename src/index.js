@@ -10,9 +10,9 @@ import {
 
 import { Header } from "./components";
 import { Footer } from "./components";
-import { About } from "./components ./pages"; // not sure how to find this
-import { Home } from "./components ./pages";
-import { Portfolio } from "./components ./pages";
+import { About } from "./components/pages"; // not sure how to find this
+import { Home } from "./components/pages";
+import { Portfolio } from "./components/pages";
 
 const App = () => {
   return (
