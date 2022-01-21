@@ -8,17 +8,24 @@ import {
   Redirect,
 } from "react-router-dom";
 
-import { Header } from "./components";
-import { Footer } from "./components";
-import { About } from "./components/pages"; // not sure how to find this
-import { Home } from "./components/pages";
-import { Portfolio } from "./components/pages";
+import { About, Home, Portfolio, Footer, Header } from "./components";
 
 const App = () => {
   return (
     <Router>
-      <div id="App">
+      <div className="App">
         <Header />
+        <Switch>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
+        </Switch>
         <Footer />
       </div>
     </Router>
