@@ -1,0 +1,35 @@
+.home-main-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: cornflowerblue;
+  height: 68vh;
+  padding: 1em;
+}
+
+.home-intro-container {
+  border: 5px solid black;
+  padding: 2em;
+}
+
+.home-text {
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.home-quote-container {
+  border: 5px solid black;
+  padding: 2em;
+}
+
+.home-quote {
+  font-size: large;
+  font-family: cursive;
+}
+
+.home-underline {
+  text-decoration: underline;
+}
+
+.home-extra-large {
+  font-size: x-large;
+}
