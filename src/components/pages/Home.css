@@ -9,16 +9,13 @@
 .home-intro-container {
   border: 5px solid black;
   padding: 2em;
-}
-
-.home-text {
-  font-size: larger;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  overflow: auto;
 }
 
 .home-quote-container {
   border: 5px solid black;
   padding: 2em;
+  overflow: auto;
 }
 
 .home-quote {
@@ -26,10 +23,10 @@
   font-family: cursive;
 }
 
-.home-underline {
-  text-decoration: underline;
-}
-
 .home-extra-large {
   font-size: x-large;
+}
+
+.slide-container {
+  width: 35%;
 }

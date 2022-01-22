@@ -1,6 +1,31 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./Home.css";
+import { Fade } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
+import camel from "../../pictures/Camel.JPG";
+import himalayas from "../../pictures/Himalayas.JPG";
+import diving from "../../pictures/Scuba.JPG";
+import teach from "../../pictures/Teacher.JPG";
+
+const fadeImages = [
+  {
+    url: camel,
+    caption: "Camel riding in Puskar",
+  },
+  {
+    url: himalayas,
+    caption: "Himalayas",
+  },
+  {
+    url: diving,
+    caption: "Scuba Diving",
+  },
+  {
+    url: teach,
+    caption: "Teaching English Abroad",
+  },
+];
 
 const Home = () => {
   return (
@@ -12,51 +37,21 @@ const Home = () => {
           You can find more information about my self in the About link and
           examples of some of my work in the Portfolio link.
         </p>
-        <p className="home-text">
-          <b className="home-underline">Coding Skills</b>
-          <br />
-          <br />
-          <em>Proficient: </em>
-          Javascript | HTML 5 | CSS | Node.js| React.js | Postgresql
-          <br />
-          <em>Knowledgeable: </em>
-          Git | Bootstrap | Express| jQuery
-          <br />
-          <em>Basic: </em>
-          Heroku
-        </p>
-        <p className="home-text">
-          <b className="home-underline">Education</b>
-          <br />
-          <br />
-          University of North Florida
-          <br />
-          Web Development Immersive Program, Powered by
-          <b> Fullstack Academy.</b>
-          <br />
-          <b>Certificate in Web Development </b>- December 2020
-          <br />
-          <em>
-            26-week coding bootcamp focused on fullstack development. Emphasis
-            on paired programming in an agile environment.
-          </em>
-          <br />
-          <br />
-          University of North Florida
-          <br />
-          <b>Bachelor of Arts, International Studies </b> - August 2015
-          <br />
-          Minors - <em>Spanish and Mandarin Chinese</em>
-        </p>
-        <p className="home-text">
-          <b className="home-underline">Interest</b>
-          <br />
-          <ul>
-            <li>Rescue Certified Diver</li>
-            <li>International Travel</li>
-            <li>Table Top RPGs</li>
-          </ul>
-        </p>
+
+        <div className="slide-container">
+          <Fade>
+            {fadeImages.map((fadeImage, index) => {
+              return (
+                <div className="each-fade" key={index}>
+                  <div className="image-container">
+                    <img src={fadeImage.url} width="500" height="450" />
+                  </div>
+                  <h2>{fadeImage.caption}</h2>
+                </div>
+              );
+            })}
+          </Fade>
+        </div>
       </div>
       <div className="home-quote-container">
         <p className="home-quote">
