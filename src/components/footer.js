@@ -39,7 +39,7 @@ const Footer = () => {
             height="100"
           />
         </a>
-        <a href="https://github.com/Bobear92" title="Instagram" target="_blank">
+        <a href="https://github.com/Bobear92" title="Git Hub" target="_blank">
           <img
             src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
             width="100"
