@@ -7,6 +7,23 @@
   background-size: 100% 100%;
 }
 
+.portfolio-title {
+  color: rgb(252, 214, 0);
+  font-size: 25px;
+}
+
+.project-title {
+  color: rgb(230, 215, 130);
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  font-size: larger;
+}
+
+.project-description {
+  text-indent: 10%;
+}
+
 .current-project-container {
   border: 5px solid purple;
   margin: 1rem;
@@ -31,6 +48,15 @@
   flex: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+.current-project-box {
+  border: 3px solid black;
+  padding: 1rem;
+  background-color: rgb(74, 56, 150);
+  width: 70%;
+  height: 60%;
+  margin: 1rem;
 }
 
 .project-box {
