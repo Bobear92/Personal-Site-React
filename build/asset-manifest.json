@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4634ead4.chunk.css",
+    "main.js": "/static/js/main.94f0b784.chunk.js",
+    "main.js.map": "/static/js/main.94f0b784.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.733852af.js",
+    "runtime-main.js.map": "/static/js/runtime-main.733852af.js.map",
+    "static/css/2.b57b7cfd.chunk.css": "/static/css/2.b57b7cfd.chunk.css",
+    "static/js/2.1b968153.chunk.js": "/static/js/2.1b968153.chunk.js",
+    "static/js/2.1b968153.chunk.js.map": "/static/js/2.1b968153.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.b57b7cfd.chunk.css.map": "/static/css/2.b57b7cfd.chunk.css.map",
+    "static/css/main.4634ead4.chunk.css.map": "/static/css/main.4634ead4.chunk.css.map",
+    "static/js/2.1b968153.chunk.js.LICENSE.txt": "/static/js/2.1b968153.chunk.js.LICENSE.txt",
+    "static/media/Camel.3c35954e.JPG": "/static/media/Camel.3c35954e.JPG",
+    "static/media/Himalayas.8c11102c.JPG": "/static/media/Himalayas.8c11102c.JPG",
+    "static/media/Scuba.ef8f4d90.JPG": "/static/media/Scuba.ef8f4d90.JPG",
+    "static/media/Teacher.3becc300.JPG": "/static/media/Teacher.3becc300.JPG",
+    "static/media/About.css": "/static/media/amCharts.83b937d7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.733852af.js",
+    "static/css/2.b57b7cfd.chunk.css",
+    "static/js/2.1b968153.chunk.js",
+    "static/css/main.4634ead4.chunk.css",
+    "static/js/main.94f0b784.chunk.js"
+  ]
+}
